@@ -6,7 +6,7 @@
 
 ### Live Demo
 
-- [PH_L2B5-Assignment-3](https://phl2b5-assignment-3.vercel.app/)
+- [PH_L2B5-Assignment-5](https://phl2b5-assignment-5.vercel.app/)
 
 ## Getting Started
 
@@ -53,4 +53,40 @@ Install typescript-eslint
 npm install --save-dev eslint @eslint/js typescript typescript-eslint
 
 npx eslint . or npm run eslint
+```
+
+Install http-status-codes
+
+```bash
+npm i http-status-codes
+```
+
+Install bcryptjs and cookie-parser
+
+```bash
+npm i bcryptjs cookie-parser
+npm i -D @types/bcryptjs @types/cookie-parser
+```
+
+Install passport for google auth
+
+```bash
+npm install passport passport-google-oauth20
+npm install passport-local
+npm i -D @types/passport @types/passport-google-oauth20 @types/passport-local
+npm i express-session
+npm i --save-dev @types/express-session
+```
+
+## 📚 API Endpoints – Digital Wallet
+
+### ✅ ADMIN - Login info
+
+Email: `admin@gmail.com`  
+Password: `A12345678`
+
+### 🔹 Base URL
+
+```bash
+/api/wallet
 ```
